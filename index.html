@@ -70,7 +70,18 @@
 </style>
 </head>
 
-<body style="background-image: url('mylove.jpeg');">
+<body style="background-image: url('mylove.jpeg');"/* Center the image horizontally and vertically */
+    background-position: center; 
+
+    /* Scale the image to be as large as possible without stretching, while ensuring the background area is covered */
+    background-size: cover; 
+
+    /* Do not repeat the image */
+    background-repeat: no-repeat; 
+
+    /* Ensure the background covers the full height and width of the viewport */
+    height: 100vh;
+    margin: 0; /* Remove default body margins */>
 
 <!-- Romantic music autoplay -->
 <audio autoplay loop>
@@ -132,3 +143,4 @@ function createConfetti() {
 
 </body>
 </html>
+
